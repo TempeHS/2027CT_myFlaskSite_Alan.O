@@ -18,7 +18,7 @@ body {
 }
 
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background: rgba(94, 84, 236, 0.5); /* Semi-transparent background */
   padding: 20px;
   border-radius: 10px;
 }
@@ -57,7 +57,7 @@ body {
 
 /* Section Styles */
 section {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 section h2 {
@@ -67,7 +67,7 @@ section h2 {
 .map-container {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(145, 64, 64, 0.1);
 }
 
 .map-container iframe {
@@ -76,7 +76,7 @@ section h2 {
 
 .contact-info {
   padding: 20px;
-  background-color: #fff;
+  background-color: #b5b5c4;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -88,4 +88,34 @@ section h2 {
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+/* Contact Form Styles */
+.contact-form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.contact-form .btn {
+  padding: 12px;
+  font-weight: 600;
+}
+
+/* Make form labels slightly bold */
+.contact-form .form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
 }

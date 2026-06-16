@@ -14,48 +14,97 @@
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
-        >
-        </iframe>
+        ></iframe>
       </div>
     </div>
 
-    <!-- Info Column -->
+    <!-- Form Column -->
     <div class="col-lg-6 mb-4">
-      <!-- Contact form will go here in next lesson -->
+      <div class="contact-form">
+        <h4 class="mb-4">Send us a Message</h4>
+        <form action="#" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name *</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="John Smith"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <select class="form-select" id="subject" name="subject">
+              <option value="" selected>Choose a topic...</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Support</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message *</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="How can we help you?"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-100">
+            Send Message
+          </button>
+        </form>
+      </div>
 
       <!-- Contact Info -->
       <div class="contact-info mt-4">
         <h4>Get in Touch</h4>
-        <p>Have questions? We'd love to hear from you!</p>
-
         <ul class="list-unstyled">
           <li class="mb-3">
-            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
-            <strong>Address:</strong><br />
-            <span class="ms-4">123 Main Street, Sydney, NSW 2000</span>
+            <i class="bi bi-geo-alt-fill text-primary me-2"></i
+            ><strong>Address:</strong><br /><span class="ms-4"
+              >123 Main Street, Sydney, NSW 2000</span
+            >
           </li>
           <li class="mb-3">
-            <i class="bi bi-telephone-fill text-primary me-2"></i>
-            <strong>Phone:</strong><br />
-            <span class="ms-4">(02) 1234 5678</span>
+            <i class="bi bi-telephone-fill text-primary me-2"></i
+            ><strong>Phone:</strong><br /><span class="ms-4"
+              >(02) 1234 5678</span
+            >
           </li>
           <li class="mb-3">
-            <i class="bi bi-envelope-fill text-primary me-2"></i>
-            <strong>Email:</strong><br />
-            <span class="ms-4"
+            <i class="bi bi-envelope-fill text-primary me-2"></i
+            ><strong>Email:</strong><br /><span class="ms-4"
               ><a href="mailto:info@myflasksite.com"
                 >info@myflasksite.com</a
               ></span
             >
           </li>
           <li class="mb-3">
-            <i class="bi bi-clock-fill text-primary me-2"></i>
-            <strong>Hours:</strong><br />
-            <span class="ms-4">Mon-Fri: 9am - 5pm</span>
+            <i class="bi bi-clock-fill text-primary me-2"></i
+            ><strong>Hours:</strong><br /><span class="ms-4"
+              >Mon-Fri: 9am - 5pm</span
+            >
           </li>
         </ul>
-        {% endblock %}
       </div>
     </div>
   </div>
 </div>
+{% endblock %}

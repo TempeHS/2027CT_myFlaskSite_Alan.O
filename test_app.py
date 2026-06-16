@@ -50,3 +50,15 @@ def test_contact_page_has_form(client):
     """Test that the contact page has a form."""
     response = client.get("/contact")
     assert b"<form" in response.data
+
+
+# ============ LIBRARY PAGE TESTS ============
+def test_library_page_loads(client):
+    """Test that the library page returns status 200."""
+    response = client.get("/library")
+    assert response.status_code == 200
+
+
+## ============ SEARCH ROUTE TESTS ============
+def test_search_page_loads(client):
+    """Test that the search route returns status 200."""
