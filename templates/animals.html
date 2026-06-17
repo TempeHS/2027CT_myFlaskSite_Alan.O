@@ -1,0 +1,89 @@
+{% extends 'base.html' %} {% block title %}Animals - My Flask Site{% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <h1>Animals</h1>
+  <p>More references to come</p>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card">
+          <video class="card-img-top" controls autoplay muted loop>
+            <source
+              src="{{ url_for('static', filename='images/your-video.mp4') }}"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below.
+            </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card">
+              <video class="card-img-top" controls autoplay muted loop>
+                <source
+                  src="{{ url_for('static', filename='images/your-video.mp4') }}"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below.
+                </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <div class="card">
+                  <video class="card-img-top" controls autoplay muted loop>
+                    <source
+                      src="{{ url_for('static', filename='images/your-video.mp4') }}"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <div class="card">
+                      <video class="card-img-top" controls autoplay muted loop>
+                        <source
+                          src="{{ url_for('static', filename='images/your-video.mp4') }}"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a longer card with supporting text below.
+                        </p>
+                      </div>
+                    </div>
+                    {% endblock %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -62,3 +62,10 @@ def test_library_page_loads(client):
 ## ============ SEARCH ROUTE TESTS ============
 def test_search_page_loads(client):
     """Test that the search route returns status 200."""
+
+
+## ============ PAGE TESTS ============
+def test_people_moving_page_loads(client):
+    """Test that the contact page returns status 200."""
+    response = client.get("/people moving")
+    assert response.status_code == 200
