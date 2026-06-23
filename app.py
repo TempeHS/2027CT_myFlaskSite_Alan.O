@@ -23,9 +23,14 @@ def animals():
     return render_template("animals.html")
 
 
-@app.route("/people moving")
-def people_moving():
-    return render_template("people moving.html")
+@app.route("/people")
+def people():
+    return render_template("people.html")
+
+
+@app.route("/nature")
+def nature():
+    return render_template("nature.html")
 
 
 @app.route("/search")
@@ -33,7 +38,8 @@ def search():
     query = request.args.get("q", "").strip().lower()
     page_map = {
         "animals": "animals",
-        "people moving": "people_moving",
+        "people": "people",
+        "nature": "nature",
     }
 
     if query in page_map:

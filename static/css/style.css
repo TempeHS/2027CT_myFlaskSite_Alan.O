@@ -131,3 +131,16 @@ section h2 {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+/* Text Transition */
+.text-transition {
+  transition:
+    color 0.3s ease,
+    letter-spacing 0.3s ease,
+    text-shadow 0.3s ease;
+}
+
+.text-transition:hover {
+  color: #290f7d;
+  letter-spacing: 1px;
+  text-shadow: 0 4px 12px rgba(13, 110, 253, 0.35);
+}

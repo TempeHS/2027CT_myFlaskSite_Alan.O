@@ -65,7 +65,19 @@ def test_search_page_loads(client):
 
 
 ## ============ PAGE TESTS ============
-def test_people_moving_page_loads(client):
-    """Test that the contact page returns status 200."""
-    response = client.get("/people moving")
+def test_people_page_loads(client):
+    """Test that the people page returns status 200."""
+    response = client.get("/people")
+    assert response.status_code == 200
+
+
+def test_animals_loads(client):
+    """Test that the animals page returns status 200."""
+    response = client.get("/animals")
+    assert response.status_code == 200
+
+
+def test_nature_loads(client):
+    """Test that the nature page returns status 200."""
+    response = client.get("/nature")
     assert response.status_code == 200

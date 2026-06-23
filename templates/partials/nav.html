@@ -1,58 +1,60 @@
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a
-      class="navbar-brand d-flex align-items-center gap-2"
-      href="{{ url_for('home') }}"
-    >
-      <img
-        src="{{ url_for('static', filename='images/Ani-ref_logo.png') }}"
-        alt="Ani-Ref logo"
-        width="45"
-        height="45"
-      />
-      <span>Ani-Ref</span>
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('home') }}">
-            <i class="fa-solid fa-house-chimney me-1"></i>Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('library') }}">Library</a>
-        </li>
-      </ul>
-      <form
-        class="d-flex ms-3"
-        role="search"
-        action="{{ url_for('search') }}"
-        method="GET"
+    <div class="container">
+      <a
+        class="navbar-brand d-flex align-items-center gap-2"
+        href="{{ url_for('home') }}"
       >
-        <input
-          class="form-control me-2"
-          type="search"
-          name="q"
-          placeholder="Search"
-          aria-label="Search"
+        
+      <img class="transition"
+          src="{{ url_for('static', filename='images/Ani-ref_logo.png') }}"
+          alt="Ani-Ref logo"
+          width="45"
+          height="45"
         />
-        <button class="btn btn-outline-light" type="submit">Search</button>
-      </form>
+        <span class="transition">Ani-Ref</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link transition" href="{{ url_for('home') }}">
+              <i class="fa-solid fa-house-chimney me-1 transition"></i>Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link transition" href="{{ url_for('contact') }}">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link transition" href="{{ url_for('library') }}">Library</a>
+          </li>
+        </ul>
+        <form
+          class="d-flex ms-3"
+          role="search"
+          action="{{ url_for('search') }}"
+          method="GET"
+        >
+          <input
+            class="form-control me-2 transition"
+            type="search"
+            name="q"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light transition" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
+  </nav>
 </nav>

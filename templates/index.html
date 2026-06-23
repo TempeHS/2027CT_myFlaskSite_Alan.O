@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block title %}Home - My Flask Site{% endblock %} {%
 block content %}
 <div class="container mt-5">
-  <h1>Welcome to My Website!</h1>
+  <h1 class="d-none d-md-block text-transition">Welcome to My Website!</h1>
   <p class="lead">This site is built with Flask and Bootstrap.</p>
 </div>
 <!-- Hero Carousel -->
@@ -36,7 +36,7 @@ block content %}
         alt="Welcome"
       />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2>Welcome to My Site</h2>
+          <h2 class="d-none d-md-block text-transition">Welcome to My Site</h2>
           <p>Discover our library for our list,and search to your end.</p>
           <a href="{{ url_for('library') }}" class="btn btn-primary btn-lg"
             >See Our References !!</a
@@ -52,7 +52,7 @@ block content %}
           alt="Features"
         />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2>Amazing Features</h2>
+          <h2 class="d-none d-md-block text-transition">Amazing Features</h2>
           <p>Built with Flask and Bootstrap.</p>
         </div>
       </div>
@@ -65,7 +65,7 @@ block content %}
           alt="Contact"
         />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2>Get in Touch</h2>
+          <h2 class="d-none d-md-block text-transition">Get in Touch</h2>
           <p>We'd love to hear from you.</p>
         </div>
       </div>
