@@ -1,9 +1,11 @@
 {% extends 'base.html' %} {% block title %}Search - My Flask Site{% endblock %}
 {% block content %}
 <div class="container mt-5">
-  <h1>Search Results for "{{ query }}"</h1>
+  <h1 class="elms-sans-hero-title">Search Results for "{{ query }}"</h1>
   <h2>
-    <a href="{{ url_for('library') }}">Click Here to See Our Library </a>
+    <a class="elms-sans-hero-title" href="{{ url_for('library') }}"
+      >Click Here to See Our Library
+    </a>
   </h2>
 
   {% if query %}

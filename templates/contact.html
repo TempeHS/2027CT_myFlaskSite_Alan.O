@@ -1,27 +1,24 @@
 {% extends 'base.html' %} {% block title %}Contact - My Flask Site{% endblock %}
 {% block content %}
 <div class="container py-5">
-  <h1 class="text-center mb-5">Contact Us</h1>
+  <h1 class="text-center mb-5 elms-sans-hero-title">Contact Us</h1>
 
   <div class="row">
     <!-- Map Column -->
     <div class="col-lg-6 mb-4">
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.5461648454384!2d151.20698831521023!3d-33.8688197806656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1625234567890"
-          width="100%"
-          height="400"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+      <div>
+        <img
+          src="{{ url_for('static', filename='images/animation-dynamic.webp') }}"
+          class="d-block w-100"
+          alt="Contact"
+        />
       </div>
     </div>
 
     <!-- Form Column -->
     <div class="col-lg-6 mb-4">
       <div class="contact-form">
-        <h4 class="mb-4">Send us a Message</h4>
+        <h4 class="mb-4 elms-sans-hero-title">Send us a Message - We'll respond as soon as we can</h4>
         <form action="#" method="POST">
           <div class="mb-3">
             <label for="name" class="form-label">Your Name *</label>
@@ -45,16 +42,16 @@
               required
             />
           </div>
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <select class="form-select" id="subject" name="subject">
-              <option value="" selected>Choose a topic...</option>
-              <option value="general">General Inquiry</option>
-              <option value="support">Support</option>
-              <option value="feedback">Feedback</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
+          <div class="mb-3 ">
+          <label for="subject" class="form-label">Subject</label>
+          <input
+            class="form-control"
+            d="subject"
+            name="subject"
+            type="text"
+            list="subject-options"
+            placeholder="Type a subject..."
+          />
           <div class="mb-3">
             <label for="message" class="form-label">Message *</label>
             <textarea
@@ -66,41 +63,11 @@
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg w-100">
+          <button type="submit" class="btn btn-primary btn-lg w-100 elms-sans-hero-title">
             Send Message
           </button>
         </form>
       </div>
-
-      <!-- Contact Info -->
-      <div class="contact-info mt-4">
-        <h4>Get in Touch</h4>
-        <ul class="list-unstyled">
-          <li class="mb-3">
-            <i class="bi bi-geo-alt-fill text-primary me-2"></i
-            ><strong>Address:</strong><br /><span class="ms-4"
-              >123 Main Street, Sydney, NSW 2000</span
-            >
-          </li>
-          <li class="mb-3">
-            <i class="bi bi-telephone-fill text-primary me-2"></i
-            ><strong>Phone:</strong><br /><span class="ms-4"
-              >(02) 1234 5678</span
-            >
-          </li>
-          <li class="mb-3">
-            <i class="bi bi-envelope-fill text-primary me-2"></i
-            ><strong>Email:</strong><br /><span class="ms-4"
-              ><a href="mailto:info@myflasksite.com"
-                >info@myflasksite.com</a
-              ></span
-            >
-          </li>
-          <li class="mb-3">
-            <i class="bi bi-clock-fill text-primary me-2"></i
-            ><strong>Hours:</strong><br /><span class="ms-4"
-              >Mon-Fri: 9am - 5pm</span
-            >
           </li>
         </ul>
       </div>

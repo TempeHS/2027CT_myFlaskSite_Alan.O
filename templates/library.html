@@ -1,24 +1,30 @@
 {% extends 'base.html' %} {% block title %}Library - My Flask Site{% endblock %}
 {% block content %}
 <div class="container mt-5">
-  <h1>Library</h1>
+  <h1 class="elms-sans-hero-title">Library</h1>
   <p class="mb-1">More references to come !!</p>
   <p class="mt-0">Click Headings to See References</p>
 
   <h2>
-    <a href="{{ url_for('animals') }}" class="text-decoration-underline"
+    <a
+      href="{{ url_for('animals') }}"
+      class="text-decoration-underline elms-sans-hero-title"
       >Animals</a
     >
   </h2>
 
   <h2>
-    <a href="{{ url_for('people') }}" class="text-decoration-underline"
+    <a
+      href="{{ url_for('people') }}"
+      class="text-decoration-underline elms-sans-hero-title"
       >People</a
     >
   </h2>
 
   <h2>
-    <a href="{{ url_for('nature') }}" class="text-decoration-underline"
+    <a
+      href="{{ url_for('nature') }}"
+      class="text-decoration-underline elms-sans-hero-title"
       >Nature</a
     >
   </h2>
