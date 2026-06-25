@@ -5,7 +5,7 @@ block content %}
   <p class="lead">This site is built with Flask and Bootstrap.</p>
 </div>
 <!-- Hero Carousel -->
-<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
   <!-- Indicators (dots) -->
   <div class="carousel-indicators">
     <button
@@ -36,7 +36,7 @@ block content %}
         alt="Welcome"
       />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2 class="d-none d-md-block text-transition">Welcome to My Site</h2>
+          <h2 class="d-none d-md-block text-transition">Looking for References?</h2>
           <p>Discover our library for our list,and search to your end.</p>
           <a href="{{ url_for('library') }}" class="btn btn-primary btn-lg"
             >See Our References !!</a
@@ -52,8 +52,10 @@ block content %}
           alt="Features"
         />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2 class="d-none d-md-block text-transition">Amazing Features</h2>
-          <p>Built with Flask and Bootstrap.</p>
+          <h2 class="d-none d-md-block text-transition">Scared to Animate?</h2>
+          <a href="{{ url_for('anibasics') }}" class="btn btn-primary btn-lg"
+            >Learn the Basics</a
+          >
         </div>
       </div>
 
@@ -65,8 +67,11 @@ block content %}
           alt="Contact"
         />
         <div class="carousel-caption d-none d-md-block transition">
-          <h2 class="d-none d-md-block text-transition">Get in Touch</h2>
+          <h2 class="d-none d-md-block text-transition">Contact Us</h2>
           <p>We'd love to hear from you.</p>
+          <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg"
+            >Any Questions?</a
+          >
         </div>
       </div>
     </div>
@@ -93,17 +98,15 @@ block content %}
   </div>
 
   <!-- Cards-->
-  <div class="container">
-    <div class="card mt-4">
-      <div class="card-body">
-        <h5 class="card-title">About</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">
-          An educational animation reference resource website.
-        </p>
-      </div>
+<div class="container mt-4">
+  <div class="card transition">
+    <div class="card-body">
+      <h5 class="card-title">About</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">An educational animation reference resource website.</p>
     </div>
   </div>
+</div>
 
   {% endblock %}
 </div>
