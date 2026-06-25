@@ -13,6 +13,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/anibasics")
+def anibasics():
+    return render_template("anibasics.html")
+
+
 @app.route("/library")
 def library():
     return render_template("library.html")

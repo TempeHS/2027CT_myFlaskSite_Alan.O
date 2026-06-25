@@ -52,6 +52,13 @@ def test_contact_page_has_form(client):
     assert b"<form" in response.data
 
 
+# ============ ANI-BASICS PAGE TESTS ============
+def test_anibasics_page_loads(client):
+    """Test that the Ani-Basics page returns status 200."""
+    response = client.get("/anibasics")
+    assert response.status_code == 200
+
+
 # ============ LIBRARY PAGE TESTS ============
 def test_library_page_loads(client):
     """Test that the library page returns status 200."""
