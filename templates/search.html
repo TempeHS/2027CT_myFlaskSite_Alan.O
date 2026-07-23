@@ -14,4 +14,30 @@
   <p class="text-muted">Please enter a search term.</p>
   {% endif %}
 </div>
-{% endblock %}
+
+<!-- Footer-->
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <h6 class="mb-2 elms-sans-hero-title">About Us</h6>
+        <p class="mb-0 small">
+          We are an educational animation reference site helping students learn
+          the 12 principles of animation.
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h6 class="mb-2 elms-sans-hero-title">Quick Links</h6>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('library') }}">Library</a>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('anibasics') }}">Ani-Basics</a>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('contact') }}">Contact</a>
+      </div>
+      <div class="col-md-3 d-flex align-items-end">
+        <small>&copy; 2026 My Flask Site</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  {% endblock %}
+</div>

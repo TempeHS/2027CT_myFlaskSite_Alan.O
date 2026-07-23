@@ -1,13 +1,13 @@
-# Website Name
+# Ani-Ref
 
-| Field                          | Detail |
-| ------------------------------ | ------ |
-| **Website Title**              |        |
-| **Student Name(s)**            |        |
-| **Class / Course**             |        |
-| **Repository**                 |        |
-| **Live Site / Codespaces URL** |        |
-| **Date**                       |        |
+| Field                          | Detail                                                   |
+| ------------------------------ | -------------------------------------------------------- |
+| **Website Title**              | Ani-Ref                                                  |
+| **Student Name(s)**            | Alan Oo                                                  |
+| **Class / Course**             | 9CT1                                                     |
+| **Repository**                 | https://github.com/TempeHS/2027CT_myFlaskSite_Alan.O     |
+| **Live Site / Codespaces URL** | https://miniature-umbrella-jj67pg4p495w25q7q.github.dev/ |
+| **Date**                       |                                                          |
 
 > Your website is the main piece of work. This README is short on purpose — it
 > points a reader to your **2-minute walkthrough** and gives an honest
@@ -37,10 +37,10 @@ This is the most important part of your documentation — it shows your website 
   [Watch the Walkthrough](./docs/walkthrough.mp4)
 -->
 
-| Field            | Detail |
-| ---------------- | ------ |
-| **Link / Embed** |        |
-| **Duration**     |        |
+| Field            | Detail                                                                  |
+| ---------------- | ----------------------------------------------------------------------- |
+| **Link / Embed** | Home Page - carousel cards nav bar![Animation](/docs/gif/Animation.gif) |
+| **Duration**     |                                                                         |
 
 **Your walkthrough should show:**
 
@@ -64,7 +64,7 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
-| Home    | `/`        |                  |
+| Home    | `/home`    |                  |
 | Contact | `/contact` |                  |
 
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
@@ -95,7 +95,7 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 | ------------- | ---------------- | ------- | ---------------------- |
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
-|               |                  |         |                        |
+| Google Fonts  |                  |         |                        |
 |               |                  |         |                        |
 
 ---

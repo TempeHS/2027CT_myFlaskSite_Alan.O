@@ -2,88 +2,114 @@
 {% block content %}
 <div class="container mt-5">
   <h1 class="elms-sans-hero-title">Nature</h1>
-  <p class="elms-sans-hero-title">More references to come</p>
+  <p>More references to come</p>
 
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
-      <div class="card">
-        <div class="card">
-          <video class="card-img-top" controls autoplay muted loop>
-            <source
-              src="{{ url_for('static', filename='images/your-video.mp4') }}"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below.
-            </p>
-          </div>
+      <div class="card h-100">
+        <div class="ratio ratio-16x9 card-img-top">
+          <iframe
+            src="https://www.youtube.com/embed/RLn1ErhxOPo"
+            title="Water Droplet"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
         </div>
+        <div class="card-body">
+          <h5 class="card-title">Water Droplet</h5>
+          <p class="card-text">Slow-mo of running Water Droplet.</p>
+        </div>
+      </div>
+    </div>
 
-        <div class="col">
-          <div class="card">
-            <div class="card">
-              <video class="card-img-top" controls autoplay muted loop>
-                <source
-                  src="{{ url_for('static', filename='images/your-video.mp4') }}"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below.
-                </p>
-              </div>
-            </div>
+    <div class="col">
+      <div class="card h-100">
+        <video class="card-img-top" controls autoplay muted loop>
+          <source
+            src="{{ url_for('static', filename='images/your-video.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below.
+          </p>
+        </div>
+      </div>
+    </div>
 
-            <div class="col">
-              <div class="card">
-                <div class="card">
-                  <video class="card-img-top" controls autoplay muted loop>
-                    <source
-                      src="{{ url_for('static', filename='images/your-video.mp4') }}"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a longer card with supporting text below.
-                    </p>
-                  </div>
-                </div>
+    <div class="col">
+      <div class="card h-100">
+        <video class="card-img-top" controls autoplay muted loop>
+          <source
+            src="{{ url_for('static', filename='images/your-video.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below.
+          </p>
+        </div>
+      </div>
+    </div>
 
-                <div class="col">
-                  <div class="card">
-                    <div class="card">
-                      <video class="card-img-top" controls autoplay muted loop>
-                        <source
-                          src="{{ url_for('static', filename='images/your-video.mp4') }}"
-                          type="video/mp4"
-                        />
-                        Your browser does not support the video tag.
-                      </video>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          This is a longer card with supporting text below.
-                        </p>
-                      </div>
-                    </div>
-                    {% endblock %}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="col">
+      <div class="card h-100">
+        <video class="card-img-top" controls autoplay muted loop>
+          <source
+            src="{{ url_for('static', filename='images/your-video.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below.
+          </p>
         </div>
       </div>
     </div>
   </div>
+</div>
+<!-- Footer-->
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <h6 class="mb-2 elms-sans-hero-title">About Us</h6>
+        <p class="mb-0 small">
+          We are an educational animation reference site helping students learn
+          the 12 principles of animation.
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h6 class="mb-2 elms-sans-hero-title">Quick Links</h6>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('library') }}">Library</a>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('anibasics') }}">Ani-Basics</a>
+        <a class="d-block text-light text-decoration-none small" href="{{ url_for('contact') }}">Contact</a>
+      </div>
+      <div class="col-md-3 d-flex align-items-end">
+        <small>&copy; 2026 My Flask Site</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  {% endblock %}
 </div>
