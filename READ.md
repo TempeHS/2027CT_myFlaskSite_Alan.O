@@ -39,7 +39,7 @@ This is the most important part of your documentation — it shows your website 
 
 | Field            | Detail                                                                  |
 | ---------------- | ----------------------------------------------------------------------- |
-| **Link / Embed** | Home Page - carousel cards navbar, search bar![Animation](/docs/gif/Animation.gif) |
+| **Link / Embed** | Home Page - carousel cards navbar, search bar, footer, footer links![Animation](/docs/gif/Animation.gif) |
 | **Duration**     |                                                                         |
 
 **Your walkthrough should show:**
