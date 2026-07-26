@@ -42,7 +42,9 @@ This is the most important part of your documentation — it shows your website 
 | ---------------- | ------------------------------------------------------------------------------------ |
 | **Link / Embed** | Home Page - carousel cards nav bar, transitions![Animation](/docs/gif/Animation.gif) |
 | **Duration**     |                                                                                      |
-| **Link / Embed** | Contact Page![Animation](/docs/gif/Contact.gif)                                      |
+| **Link / Embed** | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
+| **Duration**     |                                                                                      |
+| **Link / Embed** | Contact Page![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
 | **Duration**     |                                                                                      |
 
 **Your walkthrough should show:**
