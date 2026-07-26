@@ -41,6 +41,10 @@ This is the most important part of your documentation — it shows your website 
 | ---------------- | ----------------------------------------------------------------------- |
 | **Link / Embed** | Home Page - carousel cards navbar, search bar, footer, footer links![Animation](/docs/gif/Animation.gif) |
 | **Duration**     |                                                                         |
+| Field            | Detail                                                                  |
+| ---------------- | ----------------------------------------------------------------------- |
+| **Link / Embed** | Home Page - carousel cards navbar, search bar, footer, footer links![Contact](/docs/gif/Contact.gif) |
+| **Duration**     |                                                                         |
 
 **Your walkthrough should show:**
 
