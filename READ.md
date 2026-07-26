@@ -37,10 +37,12 @@ This is the most important part of your documentation — it shows your website 
   [Watch the Walkthrough](./docs/walkthrough.mp4)
 -->
 
-| Field            | Detail                                                                  |
-| ---------------- | ----------------------------------------------------------------------- |
-| **Link / Embed** | Home Page - carousel cards nav bar![Animation](/docs/gif/Animation.gif) |
-| **Duration**     |                                                                         |
+| Field            | Detail                                                                               |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| **Link / Embed** | Home Page - carousel cards nav bar, transitions![Animation](/docs/gif/Animation.gif) |
+| **Duration**     |                                                                                      |
+| **Link / Embed** | Contact Page![Animation](/docs/gif/Contact.gif)                                      |
+| **Duration**     |                                                                                      |
 
 **Your walkthrough should show:**
 
