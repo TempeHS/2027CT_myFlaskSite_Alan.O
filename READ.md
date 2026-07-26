@@ -43,8 +43,8 @@ This is the most important part of your documentation — it shows your website 
 | **Duration**     |                                                                         |
 | Field            | Detail                                                                  |
 | ---------------- | ----------------------------------------------------------------------- |
-| **Link / Embed** | Home Page - carousel cards navbar, search bar, footer, footer links![Contact](/docs/gif/Contact.gif) |
-| **Duration**     |                                                                         |
+| **Link / Embed** | Contact Page![Animation](/docs/gif/Contact.gif)                                      |
+| **Duration**     |                                                                                      |                                                                  
 
 **Your walkthrough should show:**
 
