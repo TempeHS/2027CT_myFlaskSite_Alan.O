@@ -17,7 +17,7 @@
 
 ## 1. Overview
 
-**Purpose:** <!-- One or two sentences: what the site is and why it exists (from your Statement of Intent). -->
+**Purpose:** Serve as an educational animation reference resource website dedicated for animators needing references for their animations.
 
 **Target audience:** <!-- One sentence: who the site is for (from your personas). -->
 
