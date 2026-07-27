@@ -46,7 +46,7 @@ This is the most important part of your documentation — it shows your website 
 | **Duration**     |                                                                                      |
 | **Link / Embed** | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
 | **Duration**     |                                                                                      |
-| **Link / Embed** | LibrarayandSearchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
+| **Link / Embed** | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
 | **Duration**     |                                                                                      |
 
 **Your walkthrough should show:**
