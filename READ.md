@@ -67,7 +67,20 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 
 ### 3.1 Your Statement of Intent
 
-<!-- Paste the Statement of Intent you wrote during planning so the reader can judge your site against it. -->
+What is the website?
+Ani-Ref is an educational animation reference resource website dedicated for animators needing references for their animations. The site will include a home page, with a button that when pressed, leads to an array of references featuring angles,  positions and movements of photos,  and videos with the user's intended topic, organised alphabetically.
+
+Why is it needed? (The problem)
+Currently many animators (beginners or even experts)lack the resources of even basic topics like, for example; how an animal looks through this angle, position, or its movement. Animators have to spend time searching through countless photos and videos of references that seem impossible to find. All of these countless hours,wasted when,could be used more efficiently.
+
+Why is it needed? (The solution)
+By creating a dedicated website, with countless of references and resources, all organised and clear to see, and user interfaces like a search bar,and buttons linking resources.We can solve issues of inefficiency, searching the web, for the price of nothing, while being an educational website teaching others, as a result. Planning the solution in this way , before any design or development begins, ensures the website is purposeful, cohesive and genuinely useful from launch day.
+
+Who is it for?
+The primary audience are young animators from any skill level, primarily ages 13-18, looking for an educational website  for animation and a collection of easy to access references,so the site must be quick to navigate. Knowing our audience in advance allows every design and content decision to be made with real users in mind, which is fundamental to  delivering a website that people will actually want to use.
+
+Summary
+Ani-Ref will transform young beginner animators workflow,fueled with easy to access references. With a home page, search bar and buttons linking resources we expect to solve the inefficiency of finding resources or references on your own.This outcome is only achievable because we took the time  to plan carefully, identifying the purpose, the audience, and the features before building anything, laying the foundation for a website that is both high quality and fit for purpose.
 
 ### 3.2 What You Delivered
 
