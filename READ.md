@@ -48,6 +48,8 @@ This is the most important part of your documentation — it shows your website 
 | **Duration**     |                                                                                      |
 | **Link / Embed** | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
 | **Duration**     |                                                                                      |
+| **Link / Embed** | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
+| **Duration**     |                                                                                      |
 
 **Your walkthrough should show:**
 
