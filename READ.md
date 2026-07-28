@@ -73,7 +73,12 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 | ------- | ---------- | ---------------- |
 | Home    | `/home`    |                  |
 | Contact | `/contact` |                  |
-
+| Ani-Basics | `/anibasics` |                  |
+| Library | `/library` |                  |
+| Search | `/search` |                  |
+| Animals | `/animals` |                  |
+| Nature | `/nature` |                  |
+| People | `/people` |                  |
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
 
 > Take each aim in your Statement of Intent and evaluate **how well the
