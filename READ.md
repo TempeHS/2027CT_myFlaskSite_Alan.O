@@ -72,8 +72,8 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
 | Home    | `/home`    | Homepage with a title and carousel linking to the contact, library and ani-basics page                 |
-| Contact | `/contact` |                  |
-| Ani-Basics | `/anibasics` |                  |
+| Contact | `/contact` | Contact page with a title and query Card for any questions viewers might have                 |
+| Ani-Basics | `/anibasics` | Contact page with a tile and 12 video cards with descriptions underneath                 |
 | Library | `/library` |                  |
 | Search | `/search` |                  |
 | Animals | `/animals` |                  |
