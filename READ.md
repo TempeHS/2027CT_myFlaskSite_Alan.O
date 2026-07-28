@@ -71,7 +71,7 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
-| Home    | `/home`    |                  |
+| Home    | `/home`    | Homepage with a title and carousel linking to the contact, library and ani-basics page                 |
 | Contact | `/contact` |                  |
 | Ani-Basics | `/anibasics` |                  |
 | Library | `/library` |                  |
