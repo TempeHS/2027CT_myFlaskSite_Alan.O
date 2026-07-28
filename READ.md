@@ -17,7 +17,7 @@
 
 ## 1. Overview
 
-**Purpose:** <!-- One or two sentences: what the site is and why it exists (from your Statement of Intent). -->
+**Purpose:** Serve as an educational animation reference resource website dedicated for animators needing references for their animations.
 
 **Target audience:** <!-- One sentence: who the site is for (from your personas). -->
 
@@ -44,7 +44,9 @@ This is the most important part of your documentation — it shows your website 
 | **Duration**     |                                                                                      |
 | **Link / Embed** | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
 | **Duration**     |                                                                                      |
-| **Link / Embed** | Contact Page![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
+| **Link / Embed** | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
+| **Duration**     |                                                                                      |
+| **Link / Embed** | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
 | **Duration**     |                                                                                      |
 
 **Your walkthrough should show:**
@@ -69,9 +71,13 @@ planning. Be honest and use evidence — point to a page, a feature or a test.
 
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
-| Home    | `/home`    |                  |
-| Contact | `/contact` |                  |
-
+| Home    | `/home`    | Homepage with a title, navigation bar and carousel linking to the contact, library and ani-basics page, and a footer underneath with navigation links and "About us" section                |
+| Contact | `/contact` | Contact page with a title and query Card for any questions viewers might have and a footer underneath                |
+| Ani-Basics | `/anibasics` | Contact page with a tile and 12 video cards with descriptions underneath and a footer underneath                |
+| Library | `/library` | Library page with a title and buttons of the references (animals, people and, nature)                 |
+| Animals | `/animals` | Animals page with 4 videos displaying the refernece and a short description underneath it                 |
+| Nature | `/nature` | Nature page with 4 videos displaying the refernece and a short description underneath i                |
+| People | `/people` | People page with 4 videos displaying the refernece and a short description underneath i                 |
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
 
 > Take each aim in your Statement of Intent and evaluate **how well the
