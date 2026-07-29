@@ -61,9 +61,11 @@ This is the most important part of your documentation — it shows your website 
 
 ## 3. Evaluation — Did You Deliver Your Statement of Intent?
 
-This is the most important written part of your documentation. Evaluate the
-website you **delivered** against the **Statement of Intent** you wrote during
-planning. Be honest and use evidence — point to a page, a feature or a test.
+The website aimed to be an organised, easy-to-navigate educational reference resource that improves animator workflow and solves the problem of inefficient reference searching. Overall, the delivered site reasonably well meets the aim through its clear layout and intuitive navigation.
+
+This can be seen on the homepage. The carousel and navigation bar provide quick access to the three most important pages (Library, Ani-Basics and Contact). At the same time, the footer consistently appears across all pages and offers a short, sharp "About Us" section and links to said three most important pages. These features optimise the site's navigation and overall aim of improving animator workflow, reducing the time spent on resources.
+
+However, this aim is only partially met as the site currently lacks a wide range of references. The categories provided are broad and limited, such as animals, people, and nature. This means the site does not yet fully solve the problem of inefficient searching.
 
 ### 3.1 Your Statement of Intent
 
