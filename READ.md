@@ -60,7 +60,9 @@ This is the most important part of your documentation — it shows your website 
 ---
 
 ## 3. Evaluation — Did You Deliver Your Statement of Intent?
-
+This is the most important written part of your documentation. Evaluate the
+website you **delivered** against the **Statement of Intent** you wrote during
+planning. Be honest and use evidence — point to a page, a feature or a test.
 ### 3.1 Your Statement of Intent
 
 What is the website?
