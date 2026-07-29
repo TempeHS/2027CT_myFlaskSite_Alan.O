@@ -110,7 +110,9 @@ However, this aim is only partially met as the site currently lacks a wide range
 > falls short, and state what you would improve to better meet your intent.
 
 <!-- Write 1–2 paragraphs. -->
+Overall, the website is largely effective at achieving its purpose. It is an educational reference resource for young animators. The clear navigation bar, carousel, and consistent footer make the site easy to browse through, which supports the target audience's need for quick access to reference material. The simple layout and direct descriptions support younger users who benefit from straightforward interfaces.
 
+The most significant improvement would be expanding the reference library with more specific and diverse categories. If the broad, limited references were improved as said, the site's usefulness could ultimately solve the problem of inefficient searching. Increasing the number of high-quality references would make the site more effective for its intended audience.
 ---
 
 ## 4. Acknowledgements
