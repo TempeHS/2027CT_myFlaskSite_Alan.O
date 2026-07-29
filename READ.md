@@ -126,7 +126,8 @@ The most significant improvement would be expanding the reference library with m
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
 | Google Fonts  |                  |         |                        |
-| Canva           |                  |         | Logo                       |
+| Canva           |                  | Canva Content License        | Logo                       |
+| Research Gate|  Preston Blair  | Fair Use (Educational) | Hero image carousel and contact page|
 
 ---
 
