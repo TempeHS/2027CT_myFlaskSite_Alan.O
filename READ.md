@@ -61,12 +61,6 @@ This is the most important part of your documentation — it shows your website 
 
 ## 3. Evaluation — Did You Deliver Your Statement of Intent?
 
-The website aimed to be an organised, easy-to-navigate educational reference resource that improves animator workflow and solves the problem of inefficient reference searching. Overall, the delivered site reasonably well meets the aim through its clear layout and intuitive navigation.
-
-This can be seen on the homepage. The carousel and navigation bar provide quick access to the three most important pages (Library, Ani-Basics and Contact). At the same time, the footer consistently appears across all pages and offers a short, sharp "About Us" section and links to said three most important pages. A readable font, aesthetic text styling, and smooth card transitions were added, improving the site's overall effectiveness. All of these features optimise the site's navigation and overall aim of improving animator workflow, reducing the time spent on resources, and optimising its effectiveness.
-
-However, this aim is only partially met as the site currently lacks a wide range of references. The categories provided are broad and limited, such as animals, people, and nature. This means the site does not yet fully solve the problem of inefficient searching.
-
 ### 3.1 Your Statement of Intent
 
 What is the website?
@@ -101,7 +95,11 @@ Ani-Ref will transform young beginner animators workflow,fueled with easy to acc
 > delivered site meets it**. Where did you meet your intent? Where did you fall
 > short, and why? Support every judgement with evidence from your site.
 
-<!-- Write 2–3 paragraphs. -->
+The website aimed to be an organised, easy-to-navigate educational reference resource that improves animator workflow and solves the problem of inefficient reference searching. Overall, the delivered site reasonably well meets the aim through its clear layout and intuitive navigation.
+
+This can be seen on the homepage. The carousel and navigation bar provide quick access to the three most important pages (Library, Ani-Basics and Contact). At the same time, the footer consistently appears across all pages and offers a short, sharp "About Us" section and links to said three most important pages. A readable font, aesthetic text styling, and smooth card transitions were added, improving the site's overall effectiveness. All of these features optimise the site's navigation and overall aim of improving animator workflow, reducing the time spent on resources, and optimising its effectiveness.
+
+However, this aim is only partially met as the site currently lacks a wide range of references. The categories provided are broad and limited, such as animals, people, and nature. This means the site does not yet fully solve the problem of inefficient searching.
 
 ### 3.4 Overall Effectiveness (1–2 paragraphs)
 
