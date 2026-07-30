@@ -126,8 +126,8 @@ The most significant improvement would be expanding the reference library with m
 | ------------- | ---------------- | ------- | ---------------------- |
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
-| Google Fonts  |                  |         |                        |
-| Canva           |                  | Canva Content License        | Logo                       |
+| Youtube           | Youtube (Alan Becker)                 | N/a      | 12 principle of animation videos and explanation                    |
+| Google Fonts  | Fonts                 | 	SIL Open Fonts License        | Text in Ani-Basics and icons                       |
 | Research Gate|  Preston Blair  | Fair Use (Educational) | Hero image carousel and contact page|
 
 ---
