@@ -46,7 +46,7 @@ This is the most important part of your documentation — it shows your website 
 | **Description**      |                                                                                      |
 | **Gif**  | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
 | **Description**     |                                                                                      |
-| ***Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
+| **Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
 | **Description**      |                                                                                      |
 | **Gif**  | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
 | **Description**      |                                                                                      |
