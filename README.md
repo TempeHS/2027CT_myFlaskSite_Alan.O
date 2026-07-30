@@ -84,13 +84,13 @@ Ani-Ref will transform young beginner animators workflow,fueled with easy to acc
 
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
-| Home    | `/home`    | Homepage with a title, navigation bar and carousel linking to the contact, library and ani-basics page, and a footer underneath with navigation links and "About us" section                |
-| Contact | `/contact` | Contact page with a title and query Card for any questions viewers might have and a footer underneath                |
-| Ani-Basics | `/anibasics` | Contact page with a tile and 12 video cards with descriptions underneath and a footer underneath                |
-| Library | `/library` | Library page with a title and buttons of the references (animals, people and, nature)                 |
-| Animals | `/animals` | Animals page with 4 videos displaying the refernece and a short description underneath it                 |
-| Nature | `/nature` | Nature page with 4 videos displaying the refernece and a short description underneath i                |
-| People | `/people` | People page with 4 videos displaying the refernece and a short description underneath i                 |
+| Home    | `/home`    | Homepage with a title, navigation bar and carousel linking to the contact, library and ani-basics page, and a footer underneath with navigation links and "About us" section.                |
+| Contact | `/contact` | Contact page with a title and query Card for any questions viewers might have and a footer underneath.                |
+| Ani-Basics | `/anibasics` | Contact page with a tile and 12 video cards with descriptions underneath and a footer underneath.                |
+| Library | `/library` | Library page with a title and buttons of the references (animals, people and, nature).                 |
+| Animals | `/animals` | Animals page with 4 videos displaying the refernece and a short description underneath it.                 |
+| Nature | `/nature` | Nature page with 4 videos displaying the refernece and a short description underneath it.                |
+| People | `/people` | People page with 4 videos displaying the refernece and a short description underneath it.                 |
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
 
 > Take each aim in your Statement of Intent and evaluate **how well the
