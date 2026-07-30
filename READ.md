@@ -41,9 +41,9 @@ This is the most important part of your documentation — it shows your website 
 | Field            | Detail                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------ |
 | **Gif** | Home Page![Animation](/docs/gif/Animation.gif) |
-| **Description**     | The home page features carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names and searchbar.                                                                                     |
+| **Description**     | The home page features the website title "Ani-Ref", carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names with the Ani-Ref logo, home page icon and searchbar.                                                                                     |
 | **Gif**  | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
-| **Description**      |                                                                                      |
+| **Description**      | The contact page feaures a title "Contact Us", a contact card with input feilds of name, email adress subject message and a send message button, with an image on the side.                                                                                    |
 | **Gif**  | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
 | **Description**     |                                                                                      |
 | **Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
