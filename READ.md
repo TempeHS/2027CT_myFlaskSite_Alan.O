@@ -40,16 +40,16 @@ This is the most important part of your documentation — it shows your website 
 <<<<<<< HEAD
 | Field            | Detail                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------ |
-| **Link / Embed** | Home Page - carousel cards nav bar, transitions![Animation](/docs/gif/Animation.gif) |
-| **Duration**     |                                                                                      |
+| **Link / Embed** | Home Page![Animation](/docs/gif/Animation.gif) |
+| **Description**     | The home page features carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names and searchbar.                                                                                     |
 | **Link / Embed** | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
-| **Duration**     |                                                                                      |
+| **Description**      |                                                                                      |
 | **Link / Embed** | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
-| **Duration**     |                                                                                      |
+| **Description**     |                                                                                      |
 | **Link / Embed** | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
-| **Duration**     |                                                                                      |
+| **Description**      |                                                                                      |
 | **Link / Embed** | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
-| **Duration**     |                                                                                      |
+| **Description**      |                                                                                      |
 
 **Your walkthrough should show:**
 
