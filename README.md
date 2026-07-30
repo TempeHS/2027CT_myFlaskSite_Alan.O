@@ -7,7 +7,7 @@
 | **Class / Course**             | 9CT1                                                     |
 | **Repository**                 | https://github.com/TempeHS/2027CT_myFlaskSite_Alan.O     |
 | **Live Site / Codespaces URL** | https://miniature-umbrella-jj67pg4p495w25q7q.github.dev/ |
-| **Date**                       |                                                          |
+| **Date**                       | 31/07/2026                                                         |
 
 > Your website is the main piece of work. This README is short on purpose — it
 > points a reader to your **2-minute walkthrough** and gives an honest
