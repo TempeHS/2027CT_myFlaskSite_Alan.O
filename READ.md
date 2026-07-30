@@ -45,7 +45,7 @@ This is the most important part of your documentation — it shows your website 
 | **Gif**  | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
 | **Description**      | The contact page feaures a title "Contact Us", a contact card with input feilds of name, email adress subject message and a send message button, with an image on the side.                                                                                    |
 | **Gif**  | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
-| **Description**     |                                                                                      |
+| **Description**     | The Ani-Basics page features a title "Ani-Basics" and subtitles underneath with 12 youtube video cards with a title and description underneath explaining 12 basics principles of animation.                                                                                     |
 | **Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
 | **Description**      |                                                                                      |
 | **Gif**  | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
