@@ -19,7 +19,7 @@
 
 **Purpose:** Serve as an educational animation reference resource website dedicated for animators needing references for their animations.
 
-**Target audience:** <!-- One sentence: who the site is for (from your personas). -->
+**Target audience:** The primary audience of Ani-Ref is young animators aged 13 -18 at any skill level, who need quick, clear and reliable visual references to support their animation practice like "Justin" (Persona 1).
 
 **Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
@@ -40,16 +40,16 @@ This is the most important part of your documentation — it shows your website 
 <<<<<<< HEAD
 | Field            | Detail                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------ |
-| **Link / Embed** | Home Page - carousel cards nav bar, transitions![Animation](/docs/gif/Animation.gif) |
-| **Duration**     |                                                                                      |
-| **Link / Embed** | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
-| **Duration**     |                                                                                      |
-| **Link / Embed** | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
-| **Duration**     |                                                                                      |
-| **Link / Embed** | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
-| **Duration**     |                                                                                      |
-| **Link / Embed** | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
-| **Duration**     |                                                                                      |
+| **Gif** | Home Page![Animation](/docs/gif/Animation.gif) |
+| **Description**     | The home page features the website title "Ani-Ref", carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names with the Ani-Ref logo, home page icon and searchbar. This page as well as all the pages features a footer at the bottm with an 'About Us" Section and Quick links to said "other pages".                                                                                    |
+| **Gif**  | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
+| **Description**      | The contact page feaures a title "Contact Us", a contact card with input feilds of name, email adress subject message and a send message button, with an image on the side.                                                                                    |
+| **Gif**  | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
+| **Description**     | The Ani-Basics page features a title "Ani-Basics" and subtitles underneath with 12 youtube video cards with a title and description underneath explaining 12 basics principles of animation.                                                                                     |
+| **Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
+| **Description**      | The library page features a title "Library" and 3 buttons underneath linking to the refrences with more to come in the future. The searchbar is also showcased linking the prompts to the reference pages. If the input doesnt exist or typed wrong it showcases a new page displaying the "Search Results" then a link underneath routing to the Library, while the text "More References Coming Sooon..." underneath and if there is no input the same is shown howevever the text is instead replaced with "Please enter a search term".                                                                                |
+| **Gif**  | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
+| **Description**      | The responsive demo demonstrates the website's adaptability to different screen sizes.                                                                                     |
 
 **Your walkthrough should show:**
 
@@ -113,6 +113,7 @@ However, this aim is only partially met as the site currently lacks a wide range
 Overall, the website is largely effective at achieving its purpose. It is an educational reference resource for young animators. The clear navigation bar, carousel, and consistent footer make the site easy to browse through, which supports the target audience's need for quick access to reference material. The simple layout and direct descriptions support younger users who benefit from straightforward interfaces.
 
 The most significant improvement would be expanding the reference library with more specific and diverse categories. If the broad, limited references were improved as said, the site's usefulness could ultimately solve the problem of inefficient searching. Increasing the number of high-quality references would make the site more effective for its intended audience.
+
 ---
 
 ## 4. Acknowledgements
@@ -125,8 +126,8 @@ The most significant improvement would be expanding the reference library with m
 | ------------- | ---------------- | ------- | ---------------------- |
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
-| Google Fonts  |                  |         |                        |
-| Canva           |                  | Canva Content License        | Logo                       |
+| Youtube           | Youtube (Alan Becker)                 | N/a      | 12 principle of animation videos and explanation                    |
+| Google Fonts  | Fonts                 | 	SIL Open Fonts License        | Text in Ani-Basics and icons                       |
 | Research Gate|  Preston Blair  | Fair Use (Educational) | Hero image carousel and contact page|
 
 ---
