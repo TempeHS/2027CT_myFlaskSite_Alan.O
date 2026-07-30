@@ -19,7 +19,7 @@
 
 **Purpose:** Serve as an educational animation reference resource website dedicated for animators needing references for their animations.
 
-**Target audience:** The primary audience of Ani-Ref is young animators aged 13 -18 like "Justin" (Persona 1)
+**Target audience:** The primary audience of Ani-Ref is young animators aged 13 -18 at any skill level, who need quick, clear and reliable visual references to support their animation practice like "Justin" (Persona 1).
 
 **Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
