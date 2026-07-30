@@ -41,15 +41,15 @@ This is the most important part of your documentation — it shows your website 
 | Field            | Detail                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------ |
 | **Gif** | Home Page![Animation](/docs/gif/Animation.gif) |
-| **Description**     | The home page features the website title "Ani-Ref", carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names with the Ani-Ref logo, home page icon and searchbar.                                                                                     |
+| **Description**     | The home page features the website title "Ani-Ref", carousel cards with a hero image and text with a small hover animation and a button linking to other pages(Contact, Ani-Basics and library), navigation bar with hover animations over the page names with the Ani-Ref logo, home page icon and searchbar. This page as well as all the pages features a footer at the bottm with an 'About Us" Section and Quick links to said "other pages".                                                                                    |
 | **Gif**  | Contact Page![Contact](/docs/gif/Contact.gif)                                      |
 | **Description**      | The contact page feaures a title "Contact Us", a contact card with input feilds of name, email adress subject message and a send message button, with an image on the side.                                                                                    |
 | **Gif**  | Ani-Basics![Ani-Basics](/docs/gif/Ani-Basics.gif)                                      |
 | **Description**     | The Ani-Basics page features a title "Ani-Basics" and subtitles underneath with 12 youtube video cards with a title and description underneath explaining 12 basics principles of animation.                                                                                     |
 | **Gif**  | Libraray and Searchbar![LibraryandSearchbar](/docs/gif/LibraryandSearchbar.gif)                                      |
-| **Description**      |                                                                                      |
+| **Description**      | The library page features a title "Library" and 3 buttons underneath linking to the refrences with more to come in the future. The searchbar is also showcased linking the prompts to the reference pages. If the input doesnt exist or typed wrong it showcases a new page displaying the "Search Results" then a link underneath routing to the Library, while the text "More References Coming Sooon..." underneath and if there is no input the same is shown howevever the text is instead replaced with "Please enter a search term".                                                                                |
 | **Gif**  | Responsive Demo ![Ani-Basics](/docs/gif/Adaptability.gif)                                      |
-| **Description**      |                                                                                      |
+| **Description**      | The responsive demo demonstrates the website's adaptability to different screen sizes.                                                                                     |
 
 **Your walkthrough should show:**
 
